@@ -201,7 +201,7 @@ class Amoc(AMOC_Bmodel.BalanceModel):
 			if rmd == 0:
 				states[:, qut] = state
 			if i%nprint == 0:
-				print('Step', i)
+				print('NSTEP', i)
 				print(state)
 				#also appends data to workbook each cycle
 				test_state = state.tolist()
