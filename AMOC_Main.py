@@ -201,7 +201,7 @@ class Amoc(AMOC_Bmodel.BalanceModel):
 			if rmd == 0:
 				states[:, qut] = state
 			if i%nprint == 0:
-				print('NSTEP', i)
+				print('Step', i)
 				print(state)
 				#also appends data to workbook each cycle
 				test_state = state.tolist()
@@ -295,7 +295,7 @@ def main():
 				ax2.set_ylim([0,12])
 			ax0.set_ylabel(r'Temperature ($^\circ$C)')
 			ax1.set_ylabel(r'Salinity (psu)')
-			ax2.set_ylabel(r'Flow (10$^6$ Sv)')
+			ax2.set_ylabel(r'Flow (Sv)')
 			ax0.set_xlabel(r'Time (yr)')
 			ax1.set_xlabel(r'Time (yr)')
 			ax2.set_xlabel(r'Time (yr)')
