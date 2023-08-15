@@ -8,7 +8,11 @@ In the current folder two timeseries graphs are saved as .png files and an Excel
 
 Variables:
 tos,sos = Temp, Salinity of north box
+
 tom,som = Temp, Salinity of surface current
+
 ton,son = Temp, Salinity of south box
+
 tod,sod= Temp, Salinity of deep current
+
 tas, tam, tan= Temp for atmosphere over north Box, surface current and south box
