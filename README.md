@@ -7,6 +7,7 @@ Under default settings the programe takes approx 5 and a half minutes to run (de
 In the current folder two timeseries graphs are saved as .png files and an Excel document of the model's results. This will be overwritten with each run.
 
 Variables:
+
 tos,sos = Temp, Salinity of north box
 
 tom,som = Temp, Salinity of surface current
