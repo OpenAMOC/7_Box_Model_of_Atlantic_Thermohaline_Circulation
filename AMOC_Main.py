@@ -1,5 +1,4 @@
-##Wallis, 2022
-#Please visit openamoc.info or investigate the README file to learn more
+#Please visit openamoc.site or investigate the README file to learn more
 
 #import required python modules
 import math
